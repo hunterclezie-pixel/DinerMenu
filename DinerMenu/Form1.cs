@@ -7,9 +7,9 @@ github url: https://github.com/hunterclezie-pixel/DinerMenu.git
 */
 namespace DinerMenu
 {
-    public partial class Form1 : Form
+    public partial class DinerMenuForm : Form
     {
-        public Form1()
+        public DinerMenuForm()
         {
             InitializeComponent();
         }
