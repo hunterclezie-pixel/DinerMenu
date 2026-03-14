@@ -64,12 +64,13 @@
             // 
             // ExitButton
             // 
-            ExitButton.Location = new Point(671, 382);
+            ExitButton.Location = new Point(638, 382);
             ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(117, 56);
+            ExitButton.Size = new Size(150, 56);
             ExitButton.TabIndex = 3;
             ExitButton.Text = "Exit";
             ExitButton.UseVisualStyleBackColor = true;
+            ExitButton.Click += ExitButton_Click;
             // 
             // RestaurantNameLabel
             // 

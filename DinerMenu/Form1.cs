@@ -12,6 +12,22 @@ namespace DinerMenu
         public DinerMenuForm()
         {
             InitializeComponent();
+            SetDefaults();
         }
+
+        //Custom Methids below here --------------------------------------------------------------
+
+        void SetDefaults()
+        {
+
+        }
+
+        //Event Handlers below here --------------------------------------------------------------
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
