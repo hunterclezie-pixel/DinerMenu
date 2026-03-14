@@ -32,7 +32,7 @@
             ChefSpecialButton = new Button();
             DailyFishButton = new Button();
             ExitButton = new Button();
-            label1 = new Label();
+            RestaurantNameLabel = new Label();
             SuspendLayout();
             // 
             // SoupButton
@@ -71,20 +71,22 @@
             ExitButton.Text = "Exit";
             ExitButton.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // RestaurantNameLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(367, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 20);
-            label1.TabIndex = 4;
+            RestaurantNameLabel.AutoSize = true;
+            RestaurantNameLabel.Font = new Font("Magneto", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            RestaurantNameLabel.Location = new Point(180, 9);
+            RestaurantNameLabel.Name = "RestaurantNameLabel";
+            RestaurantNameLabel.Size = new Size(442, 53);
+            RestaurantNameLabel.TabIndex = 4;
+            RestaurantNameLabel.Text = "The Digital Diner";
             // 
             // DinerMenuForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            Controls.Add(RestaurantNameLabel);
             Controls.Add(ExitButton);
             Controls.Add(DailyFishButton);
             Controls.Add(ChefSpecialButton);
@@ -101,6 +103,6 @@
         private Button ChefSpecialButton;
         private Button DailyFishButton;
         private Button ExitButton;
-        private Label label1;
+        private Label RestaurantNameLabel;
     }
 }
