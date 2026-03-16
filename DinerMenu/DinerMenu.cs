@@ -31,17 +31,27 @@ namespace DinerMenu
 
         private void SoupButton_Click(object sender, EventArgs e)
         {
-            DinerMenuLabel.Text = "Soup of the Day: Chicken Noodle Soup";
+            DinerMenuLabel.Text = "Soup of the Day: Lobster Bisque – " +
+                "\n A velvety, slow-simmered classic crafted from roasted lobster shells, " +
+                "aromatic vegetables, and a touch of cream. " +
+                "Finished with tender lobster pieces and delicate herbs for a rich, " +
+                "buttery bowl of coastal comfort.";
         }
 
         private void ChefSpecialButton_Click(object sender, EventArgs e)
         {
-            DinerMenuLabel.Text = "Chef's Special: Chicken Fried Steak with Mashed Potatoes and Gravy";
+            DinerMenuLabel.Text = "Chef's Special: Fire-Seared Garlic Butter Steak -" +
+                "\nA perfectly seared steak basted in garlic herb butter, " +
+                "served alongside roasted seasonal vegetables and creamy mashed potatoes. " +
+                "Finished with a light red wine reduction for a rich and satisfying entrée.";
         }
 
         private void DailyFishButton_Click(object sender, EventArgs e)
         {
-            DinerMenuLabel.Text = "Daily Fish: Fried Catfish with Hush Puppies and Coleslaw";
+            DinerMenuLabel.Text = "Daily Fish: Fresh Grilled Swordfish – " +
+                "\nThick-cut swordfish steak, expertly grilled and finished with lemon herb butter. " +
+                "Served tender and flaky with " +
+                "bright citrus notes that highlight the fish’s naturally bold flavor.";
         }
     }
 }
