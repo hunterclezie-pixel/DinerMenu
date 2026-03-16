@@ -79,7 +79,7 @@
             // RestaurantNameLabel
             // 
             RestaurantNameLabel.AutoSize = true;
-            RestaurantNameLabel.Font = new Font("Magneto", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            RestaurantNameLabel.Font = new Font("Magneto", 25.8000011F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             RestaurantNameLabel.Location = new Point(180, 9);
             RestaurantNameLabel.Name = "RestaurantNameLabel";
             RestaurantNameLabel.Size = new Size(442, 53);
@@ -89,9 +89,9 @@
             // DinerMenuLabel
             // 
             DinerMenuLabel.Font = new Font("Times New Roman", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            DinerMenuLabel.Location = new Point(144, 78);
+            DinerMenuLabel.Location = new Point(180, 91);
             DinerMenuLabel.Name = "DinerMenuLabel";
-            DinerMenuLabel.Size = new Size(532, 249);
+            DinerMenuLabel.Size = new Size(442, 249);
             DinerMenuLabel.TabIndex = 5;
             DinerMenuLabel.Text = "label1";
             // 
