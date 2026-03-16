@@ -29,5 +29,19 @@ namespace DinerMenu
             this.Close();
         }
 
+        private void SoupButton_Click(object sender, EventArgs e)
+        {
+            DinerMenuLabel.Text = "Soup of the Day: Chicken Noodle Soup";
+        }
+
+        private void ChefSpecialButton_Click(object sender, EventArgs e)
+        {
+            DinerMenuLabel.Text = "Chef's Special: Chicken Fried Steak with Mashed Potatoes and Gravy";
+        }
+
+        private void DailyFishButton_Click(object sender, EventArgs e)
+        {
+            DinerMenuLabel.Text = "Daily Fish: Fried Catfish with Hush Puppies and Coleslaw";
+        }
     }
 }

@@ -33,6 +33,7 @@
             DailyFishButton = new Button();
             ExitButton = new Button();
             RestaurantNameLabel = new Label();
+            DinerMenuLabel = new Label();
             SuspendLayout();
             // 
             // SoupButton
@@ -43,6 +44,7 @@
             SoupButton.TabIndex = 0;
             SoupButton.Text = "Soup of The Day";
             SoupButton.UseVisualStyleBackColor = true;
+            SoupButton.Click += SoupButton_Click;
             // 
             // ChefSpecialButton
             // 
@@ -52,6 +54,7 @@
             ChefSpecialButton.TabIndex = 1;
             ChefSpecialButton.Text = "Chef's Special";
             ChefSpecialButton.UseVisualStyleBackColor = true;
+            ChefSpecialButton.Click += ChefSpecialButton_Click;
             // 
             // DailyFishButton
             // 
@@ -61,6 +64,7 @@
             DailyFishButton.TabIndex = 2;
             DailyFishButton.Text = "Daily Fish";
             DailyFishButton.UseVisualStyleBackColor = true;
+            DailyFishButton.Click += DailyFishButton_Click;
             // 
             // ExitButton
             // 
@@ -82,11 +86,21 @@
             RestaurantNameLabel.TabIndex = 4;
             RestaurantNameLabel.Text = "The Digital Diner";
             // 
+            // DinerMenuLabel
+            // 
+            DinerMenuLabel.Font = new Font("Times New Roman", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            DinerMenuLabel.Location = new Point(144, 78);
+            DinerMenuLabel.Name = "DinerMenuLabel";
+            DinerMenuLabel.Size = new Size(532, 249);
+            DinerMenuLabel.TabIndex = 5;
+            DinerMenuLabel.Text = "label1";
+            // 
             // DinerMenuForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(DinerMenuLabel);
             Controls.Add(RestaurantNameLabel);
             Controls.Add(ExitButton);
             Controls.Add(DailyFishButton);
@@ -105,5 +119,6 @@
         private Button DailyFishButton;
         private Button ExitButton;
         private Label RestaurantNameLabel;
+        private Label DinerMenuLabel;
     }
 }
