@@ -7,6 +7,13 @@ github url: https://github.com/hunterclezie-pixel/DinerMenu.git
 */
 namespace DinerMenu
 {
+    /* Todo List:
+         * [] A label at the top with your diner's name
+         * [] Buttons to display: Soup of the Day, Chef's Special, Daily Fish
+         * [] A label to display the appropriate special depending on the button pressed
+         * [] Properly named controls (e.g., SoupButton, SaladButton, FishButton, ExitButton, DinerNameLabel, DisplaySpecialLabel)
+         * [] Exit button to close the application */
+
     public partial class DinerMenuForm : Form
     {
         public DinerMenuForm()
