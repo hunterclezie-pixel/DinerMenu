@@ -27,7 +27,8 @@ namespace DinerMenu
         void SetDefaults()
         {
             //Set the Diner menu label to blank when the application starts.
-            DinerMenuLabel.Text = "";
+            DinerMenuLabel.Text = "Welcome to The Digital Diner! " +
+                "\n\"Where the meals feel like Ohm Sweet Ohm\"";
         }
 
         //Event Handlers below here --------------------------------------------------------------
