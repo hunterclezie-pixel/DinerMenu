@@ -8,11 +8,11 @@ github url: https://github.com/hunterclezie-pixel/DinerMenu.git
 namespace DinerMenu
 {
     /* Todo List:
-         * [x] A label at the top with your diner's name
-         * [x] Buttons to display: Soup of the Day, Chef's Special, Daily Fish
-         * [x] A label to display the appropriate special depending on the button pressed
-         * [x] Properly named controls (e.g., SoupButton, SaladButton, FishButton, ExitButton, DinerNameLabel, DisplaySpecialLabel)
-         * [x] Exit button to close the application */
+       [x] A label at the top with your diner's name
+       [x] Buttons to display: Soup of the Day, Chef's Special, Daily Fish
+       [x] A label to display the appropriate special depending on the button pressed
+       [x] Properly named controls (e.g., SoupButton, SaladButton, FishButton, ExitButton, DinerNameLabel, DisplaySpecialLabel)
+       [x] Exit button to close the application */
 
     public partial class DinerMenuForm : Form
     {
@@ -26,6 +26,7 @@ namespace DinerMenu
 
         void SetDefaults()
         {
+            //Set the Diner menu label to blank when the application starts.
             DinerMenuLabel.Text = "";
         }
 
@@ -33,6 +34,7 @@ namespace DinerMenu
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
+            //This button closes the application.
             this.Close();
         }
 
