@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             SoupButton = new Button();
             ChefSpecialButton = new Button();
             DailyFishButton = new Button();
             ExitButton = new Button();
             RestaurantNameLabel = new Label();
             DinerMenuLabel = new Label();
+            MainToolTip = new ToolTip(components);
             SuspendLayout();
             // 
             // SoupButton
@@ -43,6 +45,7 @@
             SoupButton.Size = new Size(150, 56);
             SoupButton.TabIndex = 0;
             SoupButton.Text = "Soup of The Day";
+            MainToolTip.SetToolTip(SoupButton, "Soup Button");
             SoupButton.UseVisualStyleBackColor = true;
             SoupButton.Click += SoupButton_Click;
             // 
@@ -53,6 +56,7 @@
             ChefSpecialButton.Size = new Size(150, 56);
             ChefSpecialButton.TabIndex = 1;
             ChefSpecialButton.Text = "Chef's Special";
+            MainToolTip.SetToolTip(ChefSpecialButton, "Chef's Special Button");
             ChefSpecialButton.UseVisualStyleBackColor = true;
             ChefSpecialButton.Click += ChefSpecialButton_Click;
             // 
@@ -63,6 +67,7 @@
             DailyFishButton.Size = new Size(150, 56);
             DailyFishButton.TabIndex = 2;
             DailyFishButton.Text = "Daily Fish";
+            MainToolTip.SetToolTip(DailyFishButton, "Fresh Fish Button");
             DailyFishButton.UseVisualStyleBackColor = true;
             DailyFishButton.Click += DailyFishButton_Click;
             // 
@@ -73,6 +78,7 @@
             ExitButton.Size = new Size(150, 56);
             ExitButton.TabIndex = 3;
             ExitButton.Text = "Exit";
+            MainToolTip.SetToolTip(ExitButton, "Exit Button");
             ExitButton.UseVisualStyleBackColor = true;
             ExitButton.Click += ExitButton_Click;
             // 
@@ -120,5 +126,6 @@
         private Button ExitButton;
         private Label RestaurantNameLabel;
         private Label DinerMenuLabel;
+        private ToolTip MainToolTip;
     }
 }
